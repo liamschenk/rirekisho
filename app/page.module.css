@@ -1,0 +1,44 @@
+.pinch {
+  margin: 0 var(--spacing-regular);
+}
+
+/* Spacing */
+.spacingLarge {
+  margin-bottom: var(--spacing-large);
+}
+
+.spacingRegular {
+  margin-bottom: var(--spacing-regular);
+}
+
+.spacingSmall {
+  margin-bottom: var(--spacing-small);
+}
+
+/* Basics */
+.contactItem {
+  display: inline-block;
+  margin-right: var(--spacing-small);
+}
+
+/* Projects, work & education */
+.showcaseItem div {
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+  padding: var(--spacing-regular);
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--font-size-regular);
+  transition: background-color 0.25s ease-out, border 0.25s ease-out;
+}
+
+.showcaseItem div:hover {
+  background-color: var(--shade-1);
+  border: 1px solid var(--shade-2);
+  transition: background-color 0.25s ease-in, border 0.25s ease-in;
+}
+
+.showcaseItem div span {
+  color: var(--tertiary);
+}

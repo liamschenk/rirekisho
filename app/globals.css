@@ -1,0 +1,121 @@
+/* Root */
+:root {
+  --font-size-large: 16px;
+  --font-size-regular: 14px;
+  --line-height-large: 18px;
+  --line-height-regular: 16px;
+
+  --spacing-extra-large: 5rem;
+  --spacing-large: 3rem;
+  --spacing-regular: 1rem;
+  --spacing-small: 0.5rem;
+  --spacing-extra-small: 0.25rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary: #ffffff;
+    --secondary: #000000;
+    --tertiary: #4d4d4d;
+    --quaternary: #999999;
+    --shade-1: rgba(230, 230, 230, 0.25);
+    --shade-2: rgba(230, 230, 230, 0.5);
+  }
+
+  html {
+    color-scheme: light;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #000000;
+    --secondary: #ffffff;
+    --tertiary: #b3b3b3;
+    --quaternary: #666666;
+    --shade-1: rgba(51, 51, 51, 0.25);
+    --shade-2: rgba(51, 51, 51, 0.5);
+  }
+
+  html {
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Elements */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--primary);
+  color: var(--secondary);
+  margin: 0 var(--spacing-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: 640px;
+  margin: var(--spacing-extra-large) auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--tertiary);
+}
+
+section {
+  margin-bottom: var(--spacing-large);
+}
+
+svg {
+  display: inline-block;
+  vertical-align: text-bottom;
+  height: var(--line-height-regular);
+}
+
+/* Text */
+h1 {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+  margin-bottom: var(--spacing-extra-small);
+}
+
+p {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+}
+
+a {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--quaternary);
+}
+
+/* Breakpoints */
+@media (max-width: 480px) {
+  main {
+    margin: var(--spacing-regular) auto;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: var(--spacing-large) auto;
+  }
+}
