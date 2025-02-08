@@ -1,110 +1,182 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
-    }]
-  },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
     "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
+    "label": "Web Developer",
+    "image": "",
+    "email": "jane@example.com",
+    "phone": "(123) 456-7890",
+    "url": "https://janedoe.com",
+    "summary": "Passionate web developer with a strong focus on modern, user-friendly design. Experienced in building interactive and high-performance web applications.",
+    "location": {
+      "address": "123 Main St",
+      "postalCode": "10001",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "NY"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "janedoe",
+        "url": "https://github.com/janedoe"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "janedoe",
+        "url": "https://linkedin.com/in/janedoe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tech Solutions",
+      "position": "Frontend Developer",
+      "url": "https://techsolutions.com",
+      "startDate": "2020-06-01",
+      "endDate": "Present",
+      "summary": "Developed and maintained web applications with React and Next.js.",
+      "highlights": [
+        "Improved site performance by 30%",
+        "Implemented dark mode support"
+      ]
+    },
+    {
+      "name": "Creative Studio",
+      "position": "UI/UX Designer",
+      "url": "https://creativestudio.com",
+      "startDate": "2018-04-01",
+      "endDate": "2020-05-01",
+      "summary": "Designed user-friendly interfaces and created interactive prototypes.",
+      "highlights": [
+        "Led a redesign project increasing engagement by 20%",
+        "Created a component library for faster prototyping"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Open Source Community",
+      "position": "Contributor",
+      "url": "https://opensource.com",
+      "startDate": "2019-01-01",
+      "endDate": "Present",
+      "summary": "Contributed to open-source web projects.",
+      "highlights": [
+        "Built documentation for a major project"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tech University",
+      "url": "https://techuniversity.com",
+      "area": "Computer Science",
+      "studyType": "Bachelor's",
+      "startDate": "2016-09-01",
+      "endDate": "2020-06-01",
+      "score": "3.8 GPA",
+      "courses": [
+        "Advanced JavaScript",
+        "Web Performance Optimization"
+      ]
+    },
+    {
+      "institution": "Design Academy",
+      "url": "https://designacademy.com",
+      "area": "UI/UX Design",
+      "studyType": "Diploma",
+      "startDate": "2014-09-01",
+      "endDate": "2016-06-01",
+      "score": "4.0 GPA",
+      "courses": [
+        "Interaction Design",
+        "Visual Communication"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Web App Award",
+      "date": "2021-11-01",
+      "awarder": "Web Dev Conference",
+      "summary": "Recognized for building an innovative web application."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Full-Stack Web Development",
+      "date": "2022-06-15",
+      "issuer": "Coursera",
+      "url": "https://coursera.org/certificate"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Modern Web Design Principles",
+      "publisher": "Tech Journal",
+      "releaseDate": "2021-05-01",
+      "url": "https://techjournal.com/article",
+      "summary": "Article on best practices for modern web design."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Advanced",
+      "keywords": ["HTML", "CSS", "JavaScript", "React", "Next.js"]
+    },
+    {
+      "name": "UI/UX Design",
+      "level": "Intermediate",
+      "keywords": ["Figma", "Adobe XD", "Wireframing", "Prototyping"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Design & Animation",
+      "keywords": ["UI/UX", "Motion Graphics"]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "keywords": ["Machine Learning", "AI Ethics"]
+    }
+  ],
+  "references": [
+    {
+      "name": "John Smith",
+      "reference": "Highly skilled developer and great team player."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "startDate": "2022-01-01",
+      "endDate": "Present",
+      "description": "Personal portfolio showcasing projects and skills.",
+      "highlights": [
+        "Built with Next.js and Tailwind CSS"
+      ],
+      "url": "https://janedoe.com"
+    },
+    {
+      "name": "E-Commerce Platform",
+      "startDate": "2021-05-01",
+      "endDate": "2022-03-01",
+      "description": "Developed an online store with a custom CMS and payment integration.",
+      "highlights": [
+        "Optimized checkout flow for better user experience"
+      ],
+      "url": "https://ecommerce.com"
+    }
+  ]
 }
