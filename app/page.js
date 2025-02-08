@@ -42,7 +42,7 @@ export default function Home() {
       .catch((error) => console.error("Error fetching resume:", error));
   }, []);
 
-  if (!data) return <p>Loading...</p>;
+  if (!data) return;
 
   return (
     <motion.main variants={containerVariants} initial="hidden" animate="show">
@@ -121,7 +121,7 @@ export default function Home() {
         <h1 className={`${styles.spacingRegular} ${styles.pinch}`}>Work</h1>
         <div>
           {data.work.map((work, index) => (
-            <span key={index} className={styles.showcaseItem}>
+            <div key={index} className={styles.showcaseItem}>
               <div
                 key={index}
                 onClick={() => work.url && window.open(work.url, "_blank")}
@@ -148,7 +148,7 @@ export default function Home() {
                   <p>{work.summary}</p>
                 </span>
               </div>
-            </span>
+            </div>
           ))}
         </div>
       </motion.section>
@@ -159,7 +159,7 @@ export default function Home() {
         </h1>
         <div>
           {data.education.map((education, index) => (
-            <span key={index} className={styles.showcaseItem}>
+            <div key={index} className={styles.showcaseItem}>
               <div
                 key={index}
                 onClick={() =>
@@ -190,7 +190,7 @@ export default function Home() {
                   )}
                 </span>
               </div>
-            </span>
+            </div>
           ))}
         </div>
       </motion.section>
